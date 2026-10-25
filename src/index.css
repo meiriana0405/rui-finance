@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-stone-100 text-stone-900 font-sans antialiased; }
+input, select, textarea, button { font-family: inherit; }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom, 0px); }
